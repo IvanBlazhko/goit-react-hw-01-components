@@ -1,0 +1,37 @@
+.history__container {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 50px 20px;
+}
+.history__content {
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.history__head {
+  width: 100%;
+  display: flex;
+}
+.history__title {
+  font-family: "Arial Black";
+  font-size: 16px;
+  color: #122236;
+  flex: 0 0 33.333%;
+  text-align: center;
+}
+.history__row {
+  display: flex;
+}
+.history__item {
+  flex: 0 0 33.333%;
+  margin: 5px 0;
+  color: #A7B0BA;
+  font-size: 14px;
+  font-family: "Arial";
+  text-align: center;
+}
+.history__list {
+  width: 100%;
+}
