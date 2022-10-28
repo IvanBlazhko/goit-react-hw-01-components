@@ -24,6 +24,7 @@ export default function App() {
       />
       <Statistics
         items={StatisticsData}
+        title={StatisticsData.title}
       />
       <FriendList
         items={FriendListData}

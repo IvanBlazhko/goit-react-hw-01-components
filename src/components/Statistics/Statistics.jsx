@@ -4,11 +4,12 @@ import { StatisticsItem } from './StatisticsItem';
 
 import './StatisticsStyle.css'
 
-export const Statistics = ({ items }) => {
+export const Statistics = ({ items, title }) => {
+  console.log(true ?? 'Upload stats');
   return (
       <section className="statistics__container">
         <div className='statistics__content'>
-          <h2 className="statistics__title">Upload stats</h2>
+          <h2 className="statistics__title">{title ?? title}</h2>
           <div className="statistics__list list">
             {items.map(item =>
               <StatisticsItem
